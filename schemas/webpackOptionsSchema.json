@@ -262,6 +262,11 @@
           "type": "string",
           "absolutePath": false
         },
+        "chunkRetriesCount": {
+          "description": "Number of times to retry to load a chunk before failing.",
+          "type": "number",
+          "minimum": 0
+        },
         "crossOriginLoading": {
           "description": "This option enables cross-origin loading of chunks.",
           "enum": [
